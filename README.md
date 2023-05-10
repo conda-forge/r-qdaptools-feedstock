@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-qdaptools-fee
 
 Home: http://trinker.github.com/qdapTools/
 
-Package license: GPL-2
+Package license: GPL-2.0-only
 
 Summary: A collection of tools associated with the 'qdap' package that may be useful outside of the context of text analysis.
 
