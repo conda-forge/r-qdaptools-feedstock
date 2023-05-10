@@ -13,9 +13,9 @@ source:
   sha256: 57ea66524f4e96dc5359e019974b76358202d9252450e901544241fc3b15c4b1
 
 build:
-  noarch: generic
-  merge_build_host: true  # [win]
+  merge_build_host: True  # [win]
   number: 0
+  noarch: generic
   rpaths:
     - lib/R/lib/
     - lib/
@@ -43,10 +43,11 @@ test:
 
 about:
   home: http://trinker.github.com/qdapTools/
-  license: GPL-2
+  license: GPL-2.0-only
   summary: A collection of tools associated with the 'qdap' package that may be useful outside of the context of text analysis.
   license_family: GPL2
-  license_file: {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
+  license_file:
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
 
 extra:
   recipe-maintainers:
